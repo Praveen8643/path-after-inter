@@ -12,8 +12,8 @@ import GuidanceSection from "../components/GuidanceSection";
 import Footer from "../components/Footer";
 
 export default function Home() {
-  const [selectedLevelOneSlug, setSelectedLevelOneSlug] = useState("intermediate");
-  const [selectedStreamSlug, setSelectedStreamSlug] = useState("mpc");
+  const [selectedLevelOneSlug, setSelectedLevelOneSlug] = useState<string>("intermediate");
+  const [selectedStreamSlug, setSelectedStreamSlug] = useState<string | undefined>("mpc");
 
   const handleSelectLevelAndStream = (
     levelOneSlug: string,
