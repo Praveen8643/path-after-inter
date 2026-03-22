@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import Purpose from "../components/Purpose";
 import QuickPaths from "../components/QuickPaths";
 import CareerTree from "../components/CareerTree";
+import StreamGrid from "../components/StreamGrid";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Purpose />
       <QuickPaths />
       <CareerTree />
+      <StreamGrid />
     </main>
   );
 }
